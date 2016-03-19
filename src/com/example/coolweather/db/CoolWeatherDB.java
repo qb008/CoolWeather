@@ -33,6 +33,11 @@ public class CoolWeatherDB {
 		return mCoolWeatherDB;
 	}
 	
+	public SQLiteDatabase getDatabase(){
+		
+		return mDatabase;
+	}
+	
 	public void saveProvince(Province pProvince){
 		
 		if(pProvince != null){
