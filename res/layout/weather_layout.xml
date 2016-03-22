@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#484E61" >
+        
+        <Button android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btHome"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/home"
+            android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCityName"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+        <Button android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btReflesh"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/refresh" />
+    </RelativeLayout>
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPublishTime"
+        android:background="#27A5F9"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#FFF"
+        android:textSize="18sp"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#27A5F9"
+        android:gravity="center" >"
+        
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCurrentDate"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:gravity="center" />"
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWeatherDes"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:gravity="center" />
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTemp"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:gravity="center" />
+    </LinearLayout>
+        
+</LinearLayout>
